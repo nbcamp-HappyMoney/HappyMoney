@@ -1,6 +1,5 @@
-import { addComma } from "./common.js";
+import { addComma, token } from "./common.js";
 
-const token = "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInRva2VuVHlwZSI6ImFjY2VzcyIsImlhdCI6MTcwNTkxMzM3NywiZXhwIjoxNzA1OTk5Nzc3fQ.4Qgzi2t8YVYwJzXvZUYk2lESGUBjuFwrK9PL2schyro"
 const apiBaseUrl = `http://localhost:3000/api/`
 
 /* 나의 계좌 가져오는 함수 */

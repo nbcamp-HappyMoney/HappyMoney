@@ -59,6 +59,8 @@ function getCookie(name) {
   return null;
 }
 
+export const token = `Bearer ${getCookie('accessToken')}`
+
 async function signOut() {
   // 백엔드 조회 api 가져오기
   const response = await fetch(`http://localhost:3000/api/users/signout`);
